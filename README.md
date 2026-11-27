@@ -20,6 +20,11 @@ For baseline comparison, this repository also includes standalone Python impleme
 * **CEFT** (Constrained Earliest Finish Time — Khan, 2012)
 * **PEFT** (Predict Earliest Finish Time — Arabnejad & Barbosa, 2014)
 
+### Potential Modern Applications
+Although originally developed for traditional grid and cluster computing, the core DAG scheduling mechanics of **PATS**—specifically low-overhead predictive assignment and idle-slot compression—naturally extend to modern AI workloads, such as:
+* **LLM Inference Pipelines:** Minimizing pipeline bubbles and idle GPU time across heterogeneous multi-GPU setups.
+* **Agentic Workflows:** Orchestrating multi-step, dependent AI agent tasks across models with varying compute costs and latencies.
+
 ---
 
 ## Benchmark Datasets & Graph Generator
